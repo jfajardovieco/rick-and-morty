@@ -1,0 +1,35 @@
+.app{
+  background-color: #073137;
+
+}
+
+.app__form{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.app__input{
+  border:none;
+  padding: 0.4em 1em;
+  border-radius: 0.6em 0 0.6em;
+}
+
+.app__btn{
+  display: block;
+  border: none;
+  width: 7em;
+  background-color: rgb(9, 224, 9);
+  padding: 0.4em;
+  border-radius: 0 0.5em 0.5em 0;
+  color: white;
+  font-weight:700;
+}
+
+.app__card-container{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
