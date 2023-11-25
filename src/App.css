@@ -9,12 +9,29 @@
   
 }
 
+.app__title{
+  text-align: center;
+    color: rgb(9, 224, 9);
+    margin-bottom: 0.5em;
+}
 .app__input{
   border:none;
   padding: 0.4em 1em;
   border-radius: 0.6em 0 0.6em;
 }
 
+.header__image{
+  background-image: url('../img/dbp1ypz-3bb9c9fa-4f68-4a66-a681-a49a58121c69.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+margin: 0;
+height: 15%;
+position: relative;
+
+padding-bottom: 300px;
+
+}
 .app__btn{
   display: block;
   border: none;
@@ -33,3 +50,9 @@
   justify-content: center;
 }
 
+@media  (max-width:600px){
+  .header__image{
+  background-image: url('https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/08/Ya-comenzo-la-produccion-de-la-temporada-8-de-Rick-and-Morty.jpg');
+  background-position: center;
+  }
+}

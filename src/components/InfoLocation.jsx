@@ -3,7 +3,7 @@ import './styles/InfoLocation.css'
 const InfoLocation = ( {location} ) => {
   return (
     <article className='location'>
-        <h2 className='location'>{location?.name}</h2>
+        <h2 className='location__name'>{location?.name}</h2>
         
             <ul className='location__info'>
                 <li className='location__item'><span className='location__value'>Type: </span>{location?.type}</li>

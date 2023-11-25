@@ -9,14 +9,14 @@
     color: white;
 }
 .resident:hover{
-    /* transform: scale(1.04); */
-    /* box-shadow: 0 0 1.5em; */
+    transform: scale(1.04); 
+     box-shadow: 0 0 1.5em;
 }
 .resident__status {
     position: absolute;
     top: 10%;
     background-color: #084851;
-    width: 40%;
+    width: 45%;
     display: flex;
     gap: 0.8em;
     align-items: center;
@@ -31,6 +31,7 @@
     background-color: #777;
 
 }
+
 
 .Dead{
 background-color: red;
@@ -83,3 +84,6 @@ gap: 0.3em;
     font-weight: 300;
 }
 
+.resident__image{
+    max-width: 15em;
+}

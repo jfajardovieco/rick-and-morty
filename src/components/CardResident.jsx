@@ -13,10 +13,10 @@ const CardResident = ({ url }) => {
   return (
     
     <article className="resident">
-0000        <header className="resident__header">
+        <header className="resident__header">
             <img  className="resident__image" src={resident?.image} alt="" />
             <div className="resident__status">
-                <div className="resident__status-circle"></div>
+                <div className={`resident__status-circle ${resident?.status}`}></div>
                 <span className="resident__status-vlue">{resident?.status}</span>
             </div>
         </header>
