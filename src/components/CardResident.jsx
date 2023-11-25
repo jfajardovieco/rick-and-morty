@@ -9,7 +9,7 @@ const CardResident = ({ url }) => {
     useEffect(() => {
         getResident()
     }, [])
-    console.log(resident)
+  
   return (
     
     <article className="resident">
